@@ -15,6 +15,7 @@ contract maths{
     }
 
     function divide(uint256 x, uint256 y) public pure returns (uint256){
+        require(y != 0, "Denominator is Zero!!");
         return x / y;
     }
 } 
