@@ -3,7 +3,7 @@ pragma solidity 0.8.26;
 contract Challenge2 {
     uint256 public value;
 
-    function setamount(uint256 _value) public{
+    function setvalue(uint256 _value) public{
         value = _value;
     }
 
